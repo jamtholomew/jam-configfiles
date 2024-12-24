@@ -3,6 +3,7 @@ nnoremap H <NOP>
 nnoremap J <NOP>
 nnoremap K <NOP>
 nnoremap L <NOP>
+set mouse-=a
 
 "display file name
 set laststatus=2

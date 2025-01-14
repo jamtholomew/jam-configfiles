@@ -1,8 +1,6 @@
 "unbinding annoying stuff
-nnoremap H <NOP>
 nnoremap J <NOP>
 nnoremap K <NOP>
-nnoremap L <NOP>
 set mouse-=a
 
 "display file name
@@ -12,6 +10,7 @@ set laststatus=2
 set smartindent
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set term=xterm-256color
 
 "insert mode remap
@@ -23,6 +22,7 @@ inoremap <M-w> <C-o>w
 inoremap <M-b> <C-o>b
 inoremap <M-e> <C-o>e
 
+set pastetoggle=<C-v>
 " cosmetic vim stuff
 highlight LineNr ctermfg=darkgrey
 set nu

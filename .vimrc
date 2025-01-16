@@ -7,7 +7,8 @@ set mouse-=a
 set laststatus=2
 
 "syntax
-set smartindent
+"set smartindent
+set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -27,6 +28,9 @@ inoremap <M-e> <C-o>e
 
 set pastetoggle=<C-p>
 
+"indent guides for space tabs
+set listchars=multispace:\|\ \ \ 
+set list
 
 " cosmetic vim stuff
 set cursorcolumn

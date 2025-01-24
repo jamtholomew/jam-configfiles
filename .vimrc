@@ -39,5 +39,5 @@ hi CursorColumn ctermbg=black
 hi CursorLine ctermbg=black
 hi Cursor ctermbg=black
 highlight LineNr ctermfg=darkgrey
-set nu
+set number relativenumber
 set numberwidth=2

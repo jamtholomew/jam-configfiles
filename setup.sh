@@ -1,3 +1,5 @@
+# Install files from all submodule
+git submodule update --init --recursive
 
 # assuming jam-configfiles are home (~/)  
 ln -sf ~/jam-configfiles/.vimrc ~/.vimrc

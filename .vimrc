@@ -30,10 +30,6 @@ inoremap <M-e> <C-o>e
 
 set pastetoggle=<C-p>
 
-"indent guides for space tabs
-set listchars=multispace:\|\ \ \ 
-set list
-
 " cosmetic vim stuff
 set cursorcolumn
 set cursorline
@@ -42,7 +38,8 @@ hi CursorLine ctermbg=black
 hi Cursor ctermbg=black
 highlight LineNr ctermfg=darkgrey
 set number relativenumber
-set numberwidth=2
+set numberwidth=4
+
 
 " plugins
 " airline

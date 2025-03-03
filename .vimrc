@@ -41,3 +41,11 @@ hi Cursor ctermbg=black
 highlight LineNr ctermfg=darkgrey
 set number relativenumber
 set numberwidth=2
+
+" plugins
+let g:airline_theme= 'deus'
+let g:airline_powerline_fonts = 1
+let g:airline_right_sep = ''   " Rounded left separator
+let g:airline_left_sep = ''  " Rounded right separator
+
+

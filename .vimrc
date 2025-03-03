@@ -17,6 +17,8 @@ set expandtab
 
 set term=xterm-256color
 
+"normal mode remap
+
 "insert mode remap
 inoremap <M-h> <Left>
 inoremap <M-j> <Down>
@@ -43,9 +45,11 @@ set number relativenumber
 set numberwidth=2
 
 " plugins
+" airline
 let g:airline_theme= 'deus'
 let g:airline_powerline_fonts = 1
-let g:airline_right_sep = ''   " Rounded left separator
-let g:airline_left_sep = ''  " Rounded right separator
+let g:airline_right_sep = ''   " Rounded right separator
+let g:airline_left_sep = ''  " Rounded left separator
 
-
+" NERDTree
+let g:NERDTreeShowHidden = 1

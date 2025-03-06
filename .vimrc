@@ -27,19 +27,18 @@ inoremap <M-l> <Right>
 inoremap <M-w> <C-o>w
 inoremap <M-b> <C-o>b
 inoremap <M-e> <C-o>e
-
+inoremap <C-u> <NOP>
 set pastetoggle=<C-p>
 
 " cosmetic vim stuff
 set cursorcolumn
 set cursorline
-hi CursorColumn ctermbg=black
-hi CursorLine ctermbg=black
-hi Cursor ctermbg=black
+hi CursorColumn ctermbg=darkgrey
+hi CursorLine ctermbg=darkgrey
+hi Cursor ctermbg=darkgrey
 highlight LineNr ctermfg=darkgrey
 set number relativenumber
 set numberwidth=4
-
 
 " plugins
 
@@ -48,7 +47,7 @@ set termguicolors
 colorscheme catppuccin_mocha 
 
 " airline
-let g:airline_theme= 'deus'
+let g:airline_theme= 'catppuccin_mocha'
 let g:airline_powerline_fonts = 1
 let g:airline_right_sep = ''   " Rounded right separator
 let g:airline_left_sep = ''  " Rounded left separator

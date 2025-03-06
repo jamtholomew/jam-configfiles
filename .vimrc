@@ -42,6 +42,11 @@ set numberwidth=4
 
 
 " plugins
+
+"catppuccin
+set termguicolors
+colorscheme catppuccin_mocha 
+
 " airline
 let g:airline_theme= 'deus'
 let g:airline_powerline_fonts = 1

@@ -17,7 +17,19 @@ set expandtab
 
 set term=xterm-256color
 
-"normal mode remap
+"copy/paste remap
+
+vnoremap d "_d
+nnoremap d "_d
+nnoremap dd "_dd
+vnoremap dd "_dd
+vnoremap y "+y
+nnoremap y "+y 
+vnoremap x "+x
+nnoremap x "+x 
+vnoremap p "+p
+nnoremap p "+p
+
 
 "insert mode remap
 inoremap <M-h> <Left>
@@ -47,7 +59,7 @@ set termguicolors
 colorscheme catppuccin_mocha 
 
 " airline
-let g:airline_theme= 'catppuccin_mocha'
+let g:airline_theme= 'bubblegum'
 let g:airline_powerline_fonts = 1
 let g:airline_right_sep = ''   " Rounded right separator
 let g:airline_left_sep = ''  " Rounded left separator

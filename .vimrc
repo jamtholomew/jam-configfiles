@@ -19,17 +19,29 @@ set term=xterm-256color
 
 "copy/paste remap
 
-vnoremap d "_d
-nnoremap d "_d
-nnoremap dd "_dd
-vnoremap dd "_dd
+vnoremap x "_x
+nnoremap x "_x 
+
+vnoremap d "+d
+nnoremap d "+d
+
+nnoremap dd "+dd
+vnoremap dd "+dd
+
+vnoremap D "+D
+nnoremap D "+D
+
 vnoremap y "+y
 nnoremap y "+y 
-vnoremap x "+x
-nnoremap x "+x 
+
+vnoremap yy "+yy
+nnoremap yy "+yy
+
 vnoremap p "+p
 nnoremap p "+p
 
+vnoremap P "+P
+nnoremap P "+P
 
 "insert mode remap
 inoremap <M-h> <Left>
@@ -40,7 +52,7 @@ inoremap <M-w> <C-o>w
 inoremap <M-b> <C-o>b
 inoremap <M-e> <C-o>e
 inoremap <C-u> <NOP>
-set pastetoggle=<C-p>
+set pastetoggle=<C-i>
 
 " cosmetic vim stuff
 set cursorcolumn

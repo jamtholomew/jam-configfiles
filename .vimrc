@@ -52,7 +52,8 @@ inoremap <M-w> <C-o>w
 inoremap <M-b> <C-o>b
 inoremap <M-e> <C-o>e
 inoremap <C-u> <NOP>
-set pastetoggle=<C-i>
+
+"set pastetoggle=<C-x>
 
 " cosmetic vim stuff
 set cursorcolumn
@@ -71,7 +72,7 @@ set termguicolors
 colorscheme catppuccin_mocha 
 
 " airline
-let g:airline_theme= 'bubblegum'
+let g:airline_theme= 'deus'
 let g:airline_powerline_fonts = 1
 let g:airline_right_sep = ''   " Rounded right separator
 let g:airline_left_sep = ''  " Rounded left separator

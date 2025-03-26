@@ -1,6 +1,6 @@
 [submodule ".vim/pack/vendor/start/vim-airline"]
 	path = .vim/pack/vendor/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com/jamtholomew/vim-airline.git
 [submodule ".vim/pack/vendor/start/nerdtree"]
 	path = .vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
@@ -9,4 +9,4 @@
 	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule ".config/tmux/plugins/catppuccin/tmux"]
 	path = .config/tmux/plugins/catppuccin/tmux
-	url = git@github.com:catppuccin/tmux.git
+	url = https://github.com/catppuccin/tmux.git

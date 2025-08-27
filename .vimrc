@@ -13,7 +13,7 @@ set softtabstop=4
 set nocompatible
 set expandtab
 set noequalalways
-
+set virtualedit=all
 set term=xterm-256color
 
 " cosmetic vim stuff
@@ -37,6 +37,3 @@ let g:airline_theme= 'deus'
 let g:airline_powerline_fonts = 1
 let g:airline_right_sep = ''   " Rounded right separator
 let g:airline_left_sep = ''  " Rounded left separator
-
-" NERDTree
-let g:NERDTreeShowHidden = 1

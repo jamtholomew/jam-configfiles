@@ -14,6 +14,7 @@ set nocompatible
 set expandtab
 set noequalalways
 set virtualedit=all
+set foldmethod=indent foldlevel=99
 set term=xterm-256color
 
 " cosmetic vim stuff

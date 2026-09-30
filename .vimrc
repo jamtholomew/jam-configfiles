@@ -27,6 +27,13 @@ highlight LineNr ctermfg=darkgrey
 set number relativenumber
 set numberwidth=4
 
+highlight InactiveWindow ctermbg=234 ctermfg=252 guibg=#1c1c1c guifg=#808080
+sugroup DimInactiveWindows
+autocmd!
+autocmd WinEnter * setlocal wincolor=
+autocmd WinLeave * setlocal wincolor=InactiveWindow
+augroup END
+
 " plugins
 
 "catppuccin

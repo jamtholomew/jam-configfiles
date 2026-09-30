@@ -21,17 +21,17 @@ set term=xterm-256color
 set cursorcolumn
 set cursorline
 hi CursorColumn ctermbg=darkgrey
-hi CursorLine ctermbg=darkgrey
+hi CursorLine ctermbg=darkgrey cterm=NONE gui=NONE
 hi Cursor ctermbg=darkgrey
 highlight LineNr ctermfg=darkgrey
 set number relativenumber
 set numberwidth=4
 
 highlight InactiveWindow ctermbg=234 ctermfg=252 guibg=#1c1c1c guifg=#808080
-sugroup DimInactiveWindows
+augroup DimInactiveWindows
 autocmd!
-autocmd WinEnter * setlocal wincolor=
-autocmd WinLeave * setlocal wincolor=InactiveWindow
+autocmd WinEnter * setlocal wincolor=InactiveWindow
+autocmd WinLeave * setlocal wincolor=
 augroup END
 
 " plugins
